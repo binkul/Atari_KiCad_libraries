@@ -1,0 +1,13 @@
+(module Pin (layer F.Cu) (tedit 5FBA68F7)
+  (fp_text reference REF** (at 2.794 -1.778) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Pin (at -2.1082 -1.778) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.0414 -1.0414) (end 1.0414 -1.0414) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.0414 -1.0414) (end 1.0414 1.0414) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.0414 1.0414) (end -1.0414 1.0414) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.0414 1.0414) (end -1.0414 -1.0414) (layer F.CrtYd) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
+)
